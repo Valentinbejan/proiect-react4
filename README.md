@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+•	Am creat componenta UserCard care afișează numele utilizatorului, adresa de email și o imagine avatar într-un card de utilizator.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+•	Am creat componenta ProductItem care afișează numele, prețul și o imagine a unui produs într-un element dedicat produsului.
 
-## Available Scripts
+•	Am creat componenta Post care afișează titlul, conținutul și numele autorului unei postări într-un element de postare.
 
-In the project directory, you can run:
+•	Am creat componenta Comment care afișează textul comentariului, numele autorului și marca de timp a comentariului într-un element de comentariu.
 
-### `npm start`
+•	Am creat componenta TodoItem care afișează textul sarcinii și indică dacă sarcina este finalizată sau nu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+•	Am creat componenta Parent care conține două componente copil: ChildA și ChildB. ChildA afișează un buton, iar ChildB afișează un element de afișare a rezultatului. Funcția apelată când utilizatorul apasă butonul din ChildA transmite rezultatul către ChildB și este afișat în elementul de afișare a rezultatului.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+•	Am creat componenta Counter care afișează un număr și două butoane pentru incrementare și decrementare. Valorile numărului se actualizează în funcție de acțiunile utilizatorului.
 
-### `npm test`
+•	Am creat componenta Timer care afișează un cronometru și două butoane pentru pornire și oprire. Cronometrul poate fi controlat de utilizator prin intermediul butoanelor.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•	Am creat componenta Parent care conține două componente copil: Button și Message. La apăsarea butonului, se schimbă mesajul afișat în componenta Message.
 
-### `npm run build`
+•	Am creat componenta Form care conține un formular cu câmpuri de introducere pentru nume și adresă de email. Valorile introduse sunt transmise către alte componente pentru afișare sau prelucrare ulterioară.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+•	Am creat componenta Accordion care afișează o listă de întrebări și răspunsuri, permițând utilizatorului să extindă sau să restrângă întrebările pentru a vedea răspunsurile.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+•	Am creat componenta ProductList care afișează o listă de produse și permite utilizatorului să selecteze un produs pentru a vedea detalii suplimentare.
