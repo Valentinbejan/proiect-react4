@@ -21,3 +21,21 @@
 •	Am creat componenta Accordion care afișează o listă de întrebări și răspunsuri, permițând utilizatorului să extindă sau să restrângă întrebările pentru a vedea răspunsurile.
 
 •	Am creat componenta ProductList care afișează o listă de produse și permite utilizatorului să selecteze un produs pentru a vedea detalii suplimentare.
+
+
+
+
+https://github.com/Valentinbejan/proiect-react4/assets/118570823/46ea23e3-b491-4ae7-abf0-846246e80f0b
+
+rulare: 
+
+npm install
+
+npm install react-scripts
+
+npm install react-dom
+
+npm install web-vitals
+
+npm install antd
+
